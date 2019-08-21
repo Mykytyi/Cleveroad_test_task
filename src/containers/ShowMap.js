@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-import LocationContainer from '../components/Location/LocationContainer';
+import Location from '../components/Location/Location';
 import CurrentTime from '../components/CurrentTime/CurrentTime';
-import MapContainer from '../components/Map/MapContainer';
+import Map from '../components/Map/Map';
 import Crew from '../components/Crew/Crew';
 import { withScriptjs, withGoogleMap } from 'react-google-maps';
 
 import './ShowMap.css';
 
-const WrappedMap = withScriptjs(withGoogleMap(MapContainer));
+const WrappedMap = withScriptjs(withGoogleMap(Map));
 
 class ShowMap extends Component {
   render() {
@@ -15,7 +15,7 @@ class ShowMap extends Component {
       <React.Fragment>
         <div className="wrap">
           <div className="showMap-wrapper">
-            <LocationContainer/>
+            <Location/>
             <CurrentTime/>
             <WrappedMap
               googleMapURL={'https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyA8OJeRiEf959PDJkE60mjI54YSrdNlitk'}
