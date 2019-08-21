@@ -28,7 +28,6 @@ class Crew extends Component {
 
   render() {
     const { amountOfCrew, crewArr } = this.state;
-    console.log(crewArr);
     return (
       <div className="Crew">
         <section className="Crew_astronauts_field">
