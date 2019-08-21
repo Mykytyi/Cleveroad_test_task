@@ -27,7 +27,12 @@ class CurrentTime extends Component {
     ];
     let date = new Date();
     let hour = date.getUTCHours();
-    let minutes = date.getUTCMinutes();
+    let minute = '';
+    if (date.getUTCMinutes() < 10) {
+      minutes = '0' + date.getUTCMinutes();
+    } else {
+      minutes = date.getUTCMinutes();
+    }
 
     switch (date.getUTCDay()) {
       case 1:
