@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Cleveroad_test_task/precache-manifest.28194c009987fc465e89a3034e324ace.js"
+  "/Cleveroad_test_task/precache-manifest.0fbcec43f8e21775f99428a5ef17dbf0.js"
 );
 
 self.addEventListener('message', (event) => {

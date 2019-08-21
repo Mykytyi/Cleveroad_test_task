@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Cleveroad_test_task/static/css/main.95ac2473.chunk.css",
-    "main.js": "/Cleveroad_test_task/static/js/main.7e99ac24.chunk.js",
-    "main.js.map": "/Cleveroad_test_task/static/js/main.7e99ac24.chunk.js.map",
+    "main.js": "/Cleveroad_test_task/static/js/main.b3ddf34d.chunk.js",
+    "main.js.map": "/Cleveroad_test_task/static/js/main.b3ddf34d.chunk.js.map",
     "runtime~main.js": "/Cleveroad_test_task/static/js/runtime~main.ab1d0ad5.js",
     "runtime~main.js.map": "/Cleveroad_test_task/static/js/runtime~main.ab1d0ad5.js.map",
     "static/js/2.b15025c0.chunk.js": "/Cleveroad_test_task/static/js/2.b15025c0.chunk.js",
     "static/js/2.b15025c0.chunk.js.map": "/Cleveroad_test_task/static/js/2.b15025c0.chunk.js.map",
     "index.html": "/Cleveroad_test_task/index.html",
-    "precache-manifest.28194c009987fc465e89a3034e324ace.js": "/Cleveroad_test_task/precache-manifest.28194c009987fc465e89a3034e324ace.js",
+    "precache-manifest.0fbcec43f8e21775f99428a5ef17dbf0.js": "/Cleveroad_test_task/precache-manifest.0fbcec43f8e21775f99428a5ef17dbf0.js",
     "service-worker.js": "/Cleveroad_test_task/service-worker.js",
     "static/css/main.95ac2473.chunk.css.map": "/Cleveroad_test_task/static/css/main.95ac2473.chunk.css.map",
     "static/media/CrewMember.css": "/Cleveroad_test_task/static/media/astr.50ae75fd.jpg"
