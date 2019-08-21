@@ -29,6 +29,12 @@ class Map extends Component {
           latitude: lat
         });
         return true;
+      })
+      .catch(err => {
+        this.setState({
+          longitude: 35.046185,
+          latitude: 48.464718
+        });
       });
   }
 
